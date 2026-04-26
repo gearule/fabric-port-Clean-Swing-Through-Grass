@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -)",
+      "Bash(xargs -I{} sh -c '\"{}\" -version 2>&1' echo \"---\" find \"C:/Program Files/Java\" \"C:/Program Files/Eclipse Adoptium\" \"C:/Program Files/Microsoft\" -name \"javac.exe\")",
+      "Bash(xargs -I{} sh -c '\"{}\" -version 2>&1')",
+      "Bash(./gradlew build:*)",
+      "Bash(git config *)",
+      "Bash(git filter-branch *)",
+      "Bash(git push *)"
+    ]
+  }
+}
